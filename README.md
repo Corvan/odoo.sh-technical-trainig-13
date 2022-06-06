@@ -1,0 +1,1 @@
+# odoo.sh-technical-trainig-13
