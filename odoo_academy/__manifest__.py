@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 {
     "name": "Odoo Academy",
     "summary": """Academy App to manage training""",
