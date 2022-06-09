@@ -44,7 +44,7 @@
             <field name="arch" type="xml">
                 <search>
                     <field name="name" />
-                    <field name="description"
+                    <field name="description" />
                 </search>
             </field>
         </record>
