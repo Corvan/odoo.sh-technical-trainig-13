@@ -21,7 +21,7 @@ class Course(models.Model):
 
     base_price = fields.Float("Base Price", default=0.0)
     additional_fee = fields.Float("Additional Fee", default=10.0)
-    total_price = fields.Float("Total Price", default=0.0, readonly=True)
+    total_price = fields.Float("Total Price", default=10.0, readonly=True)
 
     @api.onchange("base_price", "additional_fee")
     def _onchange_total_price(self):

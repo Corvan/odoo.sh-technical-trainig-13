@@ -37,6 +37,9 @@
                     <field name="name" />
                     <field name="description" />
                     <field name="level" />
+                    <field name="base_price" />
+                    <field name="additional_fee" />
+                    <field name="total_price" force_save="1"/>
                 </tree>
             </field>
         </record>
