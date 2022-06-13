@@ -5,7 +5,7 @@
             <field name="name">academy.session.form</field>
             <field name="model">academy.session</field>
             <field name="arch" type="xml">
-                <form string="Course Form">
+                <form string="Session Form">
                     <sheet>
                         <h1><field name="name" /></h1>
                         <group>
