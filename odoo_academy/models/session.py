@@ -25,6 +25,6 @@ class Session(models.Model):
     )
 
     student_ids = fields.Many2many(
-        comodel_name="res.parter",
+        comodel_name="res.partner",
         string="Students"
     )
