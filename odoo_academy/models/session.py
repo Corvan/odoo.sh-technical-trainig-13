@@ -19,7 +19,7 @@ class Session(models.Model):
         related="course_id.name"
     )
 
-    instructor = fields.Many2one(
+    instructor_id = fields.Many2one(
         comodel_name="res.partner",
         string="Instructor"
     )
