@@ -18,7 +18,7 @@
                         </group>
                         <notebook>
                             <page string="Students">
-                                <field name="students_ids" />
+                                <field name="student_ids" />
                             </page>
                         </notebook>
                     </sheet>
