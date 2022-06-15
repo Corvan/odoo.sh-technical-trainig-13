@@ -11,7 +11,7 @@
     "website": "https://www.odoo.com",
     "category": "Training",
     "version": "0.1",
-    "depends": ["base"],
+    "depends": ["sale"],
     "data": [
         "security/academy_security.xml",
         "security/ir.model.access.csv",
