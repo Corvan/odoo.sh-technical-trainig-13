@@ -41,6 +41,22 @@ class Session(models.Model):
         store=True
     )
 
+    state = fields.Selection(
+        string="States",
+        selection=[
+            ("draft", "Draft"),
+            ("open", "In Progress"),
+            ("done", "Done"),
+            ("cancelled", "Cancelled")],
+        default="draft",
+        required=True
+    )
+
+    total_price = fields.Float(
+        string="Total Price",
+        related="course_id.total_price"
+    )
+
     @api.depends("start_date", "duration")
     def _compute_end_date(self):
         for record in self:
