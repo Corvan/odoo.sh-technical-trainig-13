@@ -30,5 +30,6 @@
             <field name="view_mode">form</field>
             <field name="binding_model_id" ref="model_academy_session"/>
             <field name="target">new</field>
+        </record>
     </data>
 </odoo>
