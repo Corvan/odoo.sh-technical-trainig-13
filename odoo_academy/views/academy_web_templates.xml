@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <template id="courses_website">
+        <template id="course_website">
             <t call="website.layout">
                 <t t-set="title">Academy</t>
                 <div class="oe_structure">
