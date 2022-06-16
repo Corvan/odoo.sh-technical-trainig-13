@@ -35,6 +35,6 @@ class Academy(http.Controller):
         return http.request.render(
             "odoo_academy.session_website",
             {
-                "sessiom": session
+                "session": session
             }
         )
